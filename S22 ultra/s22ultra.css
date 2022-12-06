@@ -40,14 +40,18 @@ body{
     font-size: 25px;
 
 }
+.container a{
+    padding: 10px 50px;
+}
 .buy{
     background-color:  cornflowerblue;
     color: white;
-    width: 30%;
-    padding: 10px;
     font-size: 20px;
     text-align: center;
+    text-decoration: none;
     font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+
 }
 .containet{
     margin-left: -50%;
@@ -66,9 +70,12 @@ body{
     width: 15%;
     padding: 10px;
     font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
 }
 .container .btn p:hover{
     background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
 }
 .container .info1{
     display: flex;
@@ -147,7 +154,7 @@ body{
     }
     .container .container-header{
         font-size: 20px;
-        border-top: 3px solid cornflowerblue;
+        padding: 13px;
         margin-top: 9pc;
     }
     .containet .btn{

@@ -40,6 +40,18 @@ body{
     font-size: 25px;
 
 }
+.container a{
+    padding: 10px 50px;
+}
+.buy{
+    background-color:  cornflowerblue;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+}
 .containet{
     margin-left: -50%;
 }
@@ -57,9 +69,12 @@ body{
     width: 15%;
     padding: 10px;
     font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
 }
 .container .btn p:hover{
     background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
 }
 .container .info1{
     display: flex;
@@ -70,7 +85,10 @@ body{
  font-family: 'Roboto Condensed', sans-serif;
  
 }
+.buy:hover{
+    background-color: cadetblue;
 
+}
 .container .info1 .infoin2{
     color: cornflowerblue;
     font-family: 'Roboto Condensed', sans-serif;
@@ -120,6 +138,12 @@ body{
     .header{
         width: 50%;
     }
+    .containerimg{
+        width: 100%;
+    }
+    .container .containet .price{
+        font-size: 20px;
+    }
     .containet{
         margin-left: 50%;
     }
@@ -132,7 +156,8 @@ body{
     }
     .container .container-header{
         font-size: 20px;
-        border-top: 3px solid cornflowerblue;
+        padding: 13px;
+        margin-top: 9pc;
     }
     .containet .btn{
         display: flex;
@@ -145,25 +170,26 @@ body{
         margin: 10px;
     }
     .info1{
-        font-size: 13px;
+        font-size: 17px;
     }
     .container .aboutinfoproduct{
-        width: 250px;
+        width: 370px;
     }
     .aboutinfoproduct{
-        font-size: 8px;
+        font-size: 13px;
     }
     .container-img{
-        width: 70%;
+        width: 100%;
+        margin-left: 14%;
     }
     .product-small-img{
-        width: 75%;
+        width: 100%;
     }
     .product-color-img{
         width: 50%;
-        margin-top: -300px;
+        margin-top: -320px;
     }
-
+    
 
     
 }
